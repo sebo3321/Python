@@ -13,3 +13,4 @@ while n <= 100: #<- Change this value if you want less or more folders
     f = open('C:/Users/sebci/Desktop/Python exercise/cfs/ex' + str(n) + '/ex' + str(n) + '.py', 'w+')
     int(n)
     n = n + 1
+print('All done')
