@@ -1,0 +1,18 @@
+size = 0
+print()
+print("Identity matrix")
+try:
+  size = (int(input("Enter size of the identity matrix: ")))
+except:
+  print("That's not a number! Try again!")
+
+sz = size - 1
+for row in range(0, size):
+  for col in range(0, size):
+    # Here end is used to stay in same line
+    if (col == sz):
+      print("1 ", end=" ")
+    else:
+      print("0 ", end=" ")
+  sz = sz - 1
+  print()
